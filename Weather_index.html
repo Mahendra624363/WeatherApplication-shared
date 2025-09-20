@@ -1,0 +1,27 @@
+<html>
+
+<head><center><h1>WEATHER REPORT</h1></center></head>
+<br>
+<style>
+body {
+      margin: 0;
+      background-image:url("image.jpg");
+      background-size: cover;      
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      background-position: center;
+}
+</style>
+<body align="center">
+ <div class="container">
+        <input type="text" id="locationInput" placeholder="Enter a city">
+        <button id="searchButton">Submit</button>
+        <div class="weather-info">
+            <h2>PLACE: <span id="location">--</span></h2>
+            <h2>TEMPERATURE: <span id="temperature">--</span></h2>
+            <h2>DESCRIPTION: <span id="description">--</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
